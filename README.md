@@ -28,6 +28,8 @@ If you want to use an existing codespace, click the plug icon to connect to it.
 
 Note that codespaces have some limitations, especially when using VSCode in the web. See VSCode's [page](https://code.visualstudio.com/docs/remote/codespaces) for more details.
 
+One limitation is that using codespaces in a browser might make viewing plots difficult. If using codespaces in a browser, you will need to view plots in Jupyter or save them as files rather than view them by spawning new windows in Python.
+
 ## Codespaces in this Class
 
 In this class, you are expected to know how to set up a local development environment yourself. This is so that you can (1) understand all the required tools that help your programs run under the hood and (2) be ready to build your own development environments using more advanced tools like Docker, or even Codespaces later on. When you build these environments, you provide tools like Docker and Codespaces all the commands needed to automate all the set up that goes into standing up a development environment. Having done this manually ensures that you are qualified to do it automatically via those tools!
@@ -40,7 +42,7 @@ All assignments in this course will come with the proper *dotfiles* (i.e., hidde
 
 As is the theme with this course, if the tests pass and the work was your own, you will get full credit for any assignment regardless of the tools you prefer to use to complete it.
 
-## Advanced: Configuring Your Own Codespace
+## Advanced and Optional: Configuring Your Own Codespace
 
 If you want to try [creating or configuring your own codespace](https://docs.github.com/en/codespaces/developing-in-a-codespace/creating-a-codespace-for-a-repository), you are encouraged to do so. This is not required in this course, but you may find it helpful in other work you do, academically and professionally. You will also see why it helps to understand how and where these tools are installed inside a container, codespace (built on containers), or your local machine, when building more complex systems.
 
